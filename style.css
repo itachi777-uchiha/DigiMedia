@@ -193,7 +193,7 @@ section#about {
 }
 
 .about-content p:nth-child(4) {
-    width: 70%; 
+    width: 70%;
     color: #7777;
     margin: 30px 0;
     line-height: 1.8;
@@ -372,7 +372,7 @@ section#about {
     padding: 5px;
 }
 
-.free-quote button {   
+.free-quote button {
     background-color: #726ae3;
     border: 1px solid #726ae3;
     height: 80px;
@@ -463,16 +463,113 @@ section#projects {
 }
 
 .blog-left {
-    padding: 0 10%;
-    width: 900px;
-    /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
+    width: 700px;
+    height: 820px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
 .blog-header {
     border-radius: 20px 20px 0 0;
+    width: 700px;
 }
 
 .blog-header img {
     border-radius: 20px 20px 0 0;
     width: 100%;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.date span {
+    background-color: #726ae3;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-content {
+    padding: 0 20px;
+}
+
+.blog-content h1 {
+    font-size: 20px;
+    color: #2a2a2a;
+    margin: 20px 0;
+}
+
+.blog-content p:nth-child(3) {
+    color: #afafaf;
+    margin-bottom: 30px;
+}
+
+.blog-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-bottom-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.blog-bottom-left img {
+    border-radius: 50px;
+}
+
+.blog-right {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.blog-box {
+    display: flex;
+    gap: 50px;
+    padding: 0 10%;
+}
+
+.blog-right img {
+    border-radius: 30px;
+}
+
+.blog-right-content span {
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: #726ae3;
+}
+
+.blog-right-content p:nth-child(2) {
+    color: #afafaf;
+}
+
+.blog-top {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.blog-right-content h3 {
+    width: 70%;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.blog-right-content p:nth-child(3) {
+    color: #afafaf;
+    width: 70%;
+    line-height: 1.8;
 }
